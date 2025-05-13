@@ -1,0 +1,12 @@
+#particles-js{ height:100vh;
+background-color: rgb(194, 181, 221);
+position: absolute;
+}
+body{ min-height: 100vh;	
+	  font-family: 'Roboto', sans-serif;
+	  overflow-x: hidden;
+}
+.poyaisch{margin-top: .7rem;}
+/* .zagolk{margin-left: 15rem;} */
+.doppanel{margin-top: 1rem;}
+.doppanel2{display: none; margin-top: .6rem;}

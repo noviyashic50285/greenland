@@ -1,0 +1,35 @@
+.opistext_{ opacity: 0;
+animation: 10s in-out infinite;
+}
+@keyframes in-out {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.opispic{ opacity: 0;
+animation: 10s in-out infinite;
+}
+@keyframes in-out {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+  
+/* div.boxl {
+  position: fixed;
+  z-index: 100;
+  background: greenyellow;
+  width: 0;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation: 10s in-out forwards;
+  font-size: 50px;
+} */
+/* .boxl{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+

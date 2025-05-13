@@ -1,0 +1,24 @@
+div.boxl {
+  position: fixed;
+  z-index: 100;
+  background: greenyellow;
+  width: 0;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation: 10s in-out forwards;
+  font-size: 50px;
+}
+
+@keyframes in-out {
+  0% { width: 0; }
+  50% { width: 100vw; }
+  100% { width: 0; }
+}
+.boxl{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -1,0 +1,30 @@
+div.box {
+  position: fixed;
+  z-index: 100;
+  background: blueviolet;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation: 12s in-out forwards;
+  font-size: 50px;
+}
+
+@keyframes in-out {
+  0% {
+    transform:translateX(-100%);
+  }
+  45%,55% { /*to stay a while full width*/
+    transform:translateX(0);
+  }
+  100% {
+    transform:translateX(100%);
+  }
+}
+.box{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+

@@ -1,0 +1,94 @@
+*{margin: 0;padding: 0;}
+.container-fluid{ position: absolute; }
+
+.ischez{opacity: 1;}
+.ischez {
+animation: bounce_ 5s infinite ease-in-out;
+}
+@keyframes bounce {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+
+.btn{ color: #000; background-color: rgb(205, 243, 173); }
+.btn:hover{color:  rgb(56, 105, 13);}
+/* a:hover{ color: red;} 
+a{text-decoration: none;} */
+
+.opistext
+{ display: block;
+font-size: 1.2rem;
+align-items: center;
+border: 3px dashed rgb(188, 243, 71);
+border-radius: 1rem;
+margin-right: .1rem;
+}
+
+/* .btkn{ border: 2px solid red; border-radius: 5px; color: green;}
+.btkn:hover{ color: blue; background-color: white;}  */
+.bg-cover
+{background-size: cover;
+background-position: center;
+background-repeat: no-repeat !important;
+} 
+.ul li
+{list-style-type: none;
+display: inline-block;
+padding: 5px;
+}
+li{list-style-type: none;}
+.ul li a{text-decoration: none;}
+.nav-link
+{color: var(--nav-color);
+font-family: var(--nav-f-faimly);
+font-size: 1.7rem;
+}
+.nav-link:hover{color: rgb(178, 245, 178);}
+.toggle-icon,.search-icon
+{padding: 20px 0;
+width: 100%;
+cursor: pointer;
+}
+.toggle-icon span 
+{font-size: 20px;
+border-radius: 50%;
+height: 40px !important;
+width: 40px;
+display: block;
+text-align: center;
+line-height: 40px;
+background: #fff;
+transition: .5s ease-in-out;
+}
+.sidbar-nav
+{position: fixed;
+height: 100vh;
+background: linear-gradient(90deg, 
+rgba(49,170,226,0.7287289915966386) 6%, 
+rgba(28,97,129,0.6979166666666667) 38%, 
+rgba(0,0,0,0.45702030812324934) 95%);
+top: 0;
+width: 40%;  /* ширина панельки */
+display: none;
+padding: 20px 60px; /* крестик */
+z-index: 5;
+text-align: center;
+}
+.close-icon span  
+{font-size: 20px;
+border-radius: 50%;
+height: 40px !important; /* крестик в кружке*/
+width: 40px;
+display: block;
+text-align: center;
+line-height: 40px;
+background: #fff;
+margin-left: 3%;  /* крестик */
+cursor: pointer;
+transition: .5s ease-in-out;
+}
+.close-icon span:hover
+{background: #8ec6ff; color: #fff;}
+.toggle-icon span:hover
+{background: #86c875; color: #fff;}
+

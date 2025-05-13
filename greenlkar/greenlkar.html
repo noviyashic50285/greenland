@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Карты</title>
+    <link rel="stylesheet" href="greenlkar.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="icon" type="Images/x-icon" href="../atsicon.ico"/>    
+  </head>
+  <body>
+    <h3>Карты Гренландии</h3>
+    <div class="center">
+      <div class="images">
+        <div class="slide img1"><img src="img/greenlandk3.jpg" alt="Нет фото"></div>
+        <div class="slide"><img src="img/greenlandk6.jpg" alt="Нет фото"></div>
+        <div class="slide"><img src="img/greenlandk7.jpg" alt="Нет фото"></div>
+        <div class="slide"><img src="img/greenlandk8.jpg" alt="Нет фото"></div>
+        <div class="slide"><img src="img/greenlandk9.jpg" alt="Нет фото"></div>
+      </div>
+      <div class="buttons">
+        <a href="#" class="btn1 active"></a>
+        <a href="#" class="btn2"></a>
+        <a href="#" class="btn3"></a>
+        <a href="#" class="btn4"></a>
+        <a href="#" class="btn5"></a>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function(){
+        $('.btn1').click(function(){
+          $('.img1').css("marginLeft","0");
+        });
+        $('.btn2').click(function(){
+          $('.img1').css("marginLeft","-20%");
+        });
+        $('.btn3').click(function(){
+          $('.img1').css("marginLeft","-40%");
+        });
+        $('.btn4').click(function(){
+          $('.img1').css("marginLeft","-60%");
+        });
+        $('.btn5').click(function(){
+          $('.img1').css("marginLeft","-80%");
+        });
+        $('a').click(function(){
+          $(this).addClass('active').siblings()
+                  .removeClass('active');
+        })
+      });
+    </script>
+  </body>
+</html>
