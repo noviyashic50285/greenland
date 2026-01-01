@@ -3,10 +3,26 @@ background-color: rgb(194, 181, 221);
 position: absolute;
 }
 body{ min-height: 100vh;	
-	  font-family: 'Roboto', sans-serif;
-	  overflow-x: hidden;
+font-family: 'Roboto', sans-serif;
+overflow-x: hidden;
 }
 .poyaisch{margin-top: .7rem;}
 /* .zagolk{margin-left: 15rem;} */
 .doppanel{margin-top: 1rem;}
 .doppanel2{display: none; margin-top: .6rem;}
+
+.clas{
+background-color: grey;
+color: greenyellow;
+margin: 0 5px 0 5px;
+padding: 0 5px 0 5px;
+border: 3px solid rgb(85, 95, 193);
+border-radius: 1rem;
+}
+.clasbl{
+margin-top: .4rem;
+}
+.clas:hover{ 
+background-color: rgb(202, 207, 250);
+color: green;
+}

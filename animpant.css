@@ -6,7 +6,7 @@ animation: 10s in-out infinite;
   50% { opacity: 1; }
   100% { opacity: 0; }
 }
-.opispic{ opacity: 0;
+.opispic{ opacity: 0; margin-top: .6rem;
 animation: 10s in-out infinite;
 }
 @keyframes in-out {
