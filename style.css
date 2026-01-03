@@ -12,9 +12,7 @@ to { opacity: 1; }
 
 .btn{ color: #000; background-color: rgb(205, 243, 173); }
 .btn:hover{color:  rgb(56, 105, 13);}
-/* a:hover{ color: red;} 
-a{text-decoration: none;} */
-
+/* a:hover{ color: red;} a{text-decoration: none;} */
 .opistext
 { display: block;
 font-size: 1.2rem;
@@ -23,7 +21,6 @@ border: 3px dashed rgb(188, 243, 71);
 border-radius: 1rem;
 margin-right: .1rem;
 }
-
 /* .btkn{ border: 2px solid red; border-radius: 5px; color: green;}
 .btkn:hover{ color: blue; background-color: white;}  */
 .bg-cover
@@ -41,11 +38,11 @@ li{list-style-type: none;}
 .nav-link
 {color: var(--nav-color);
 font-family: var(--nav-f-faimly);
-font-size: 1.7rem;
+font-size: 1.5rem;
 }
 .nav-link:hover{color: rgb(178, 245, 178);}
 .toggle-icon,.search-icon
-{padding: 20px 0;
+{padding: 5px 0;
 width: 100%;
 cursor: pointer;
 }
@@ -70,7 +67,7 @@ rgba(0,0,0,0.45702030812324934) 95%);
 top: 0;
 width: 40%;  /* ширина панельки */
 display: none;
-padding: 20px 60px; /* крестик */
+padding: 5px 50px; /* крестик */
 z-index: 5;
 text-align: center;
 }
